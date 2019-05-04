@@ -5,6 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Fontawesom -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="theme/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="theme/css/app.css">
@@ -35,21 +38,31 @@
 			</nav>
     	</div><!-- Header row end -->
 
-    	<!-- Sign in -->
+    	<!-- Signing form -->
     	<div class="row">
     		<div id="popUp" class="loader hidden">
         		<a href="#" class="closePopUp">X</a>
-        		<div class="signing-form">
+        		<div class="signing-form" id="signInForm">
             		<input id="inputEmail" type="email" placeholder="email"></input>
             		<br>
             		<input id="inputPass" type="password" placeholder="password"></input>
             		<br>
+                    <button id="inputIn">Sign In</button><br>
             		<a href="" >forget password</a>
             		<br>
-            		<a href=""  > you don't  have account? register</a>
+            		<a href="" id="signUpA" > you don't  have account? register</a>
         		</div>
-      		</div>
-    	</div><!-- Sign in -->
+                <div class="signing-form" id="signUpForm">
+                    <input id="inputName" type="text" placeholder="name"></input>
+                    <br>
+                    <input id="inputEmail" type="email" placeholder="email"></input>
+                    <br>
+                    <input id="inputPass" type="password" placeholder="password"></input>
+                    <br>
+                    <button id="inputIn">Sign Up</button><br>
+                    <a href="" id="signInA" > you have account? sign in</a>
+                </div>
+      		</div><!-- Sign in end -->
 
     	<!-- Body row -->
     	<div class="row">
@@ -154,56 +167,100 @@
     					<img src="theme/images/01.jpg">
     				</div>
     				<div class="top-games-content-container">
-    					<span>Game Name Game Name</span><br>
+    					<span>Spider-Man</span><br>
     				</div>
     			</div>
-    			<hr>
     			<div class="top-games-container">
     				<div class="top-games-image-container">
     					<img src="theme/images/02.jpg">
     				</div>
     				<div class="top-games-content-container">
-    					<span>Game Name Game Name</span><br>
+    					<span>The Division 2</span><br>
     				</div>
     			</div>
-    			<hr>
     			<div class="top-games-container">
     				<div class="top-games-image-container">
     					<img src="theme/images/03.jpg">
     				</div>
     				<div class="top-games-content-container">
-    					<span>Game Name Game Name</span><br>
+    					<span>NFL Madden 2019</span><br>
     				</div>
     			</div>
-    			<hr>
     			<div class="top-games-container">
     				<div class="top-games-image-container">
     					<img src="theme/images/04.jpg">
     				</div>
     				<div class="top-games-content-container">
-    					<span>Game Name Game Name</span><br>
+    					<span>Forza New Horizon</span><br>
     				</div>
     			</div>
-    			<hr>
     			<div class="top-games-container">
     				<div class="top-games-image-container">
     					<img src="theme/images/05.jpg">
     				</div>
     				<div class="top-games-content-container">
-    					<span>Game Name Game Name</span><br>
+    					<span>Overwatch</span><br>
     				</div>
     			</div>
-    			<hr>
     		</div>
     	</div><!-- Body row end -->
 
-    	<!-- more row -->
+    	<!-- Comments -->
     	<div class="row">
-    		<div class="col-md-6">6</div>
-    		<div class="col-md-6">6</div>
-    	</div><!-- Body row end -->
+    		<div class="container">
+                <div class="section-title">
+                    <h3>Coming Soon</h3>
+                </div>
+                <div class="col-md-3">
+                   <div class="coming-soon-container">
+                        <div class="coming-soon-title">
+                            <span>Grand Theft Auto</span><br>
+                            <span>21/05/2020</span>
+                        </div>
+                        <div class="coming-soon-image-container">
+                            <img src="theme/images/05.jpg">
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-3">
+                   <div class="coming-soon-container">
+                        <div class="coming-soon-title">
+                            <span>Spider-Man</span>
+                        </div>
+                        <div class="coming-soon-image-container">
+                            <img src="theme/images/01.jpg">
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-3">
+                   <div class="coming-soon-container">
+                        <div class="coming-soon-title">
+                            <span>NFL Madden 2019</span>
+                        </div>
+                        <div class="coming-soon-image-container">
+                            <img src="theme/images/03.jpg">
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-3">
+                   <div class="coming-soon-container">
+                        <div class="coming-soon-title">
+                            <span>The Division 2</span>
+                        </div>
+                        <div class="coming-soon-image-container">
+                            <img src="theme/images/02.jpg">
+                        </div>
+                    </div> 
+                </div>
+
+            </div>
+    	</div><!-- Comments end -->
 
     </div>
+
+    <footer class="container-fluid">
+        <span>Video Games Reviews | 2019</span>
+    </footer>
 
     
     <!-- Optional JavaScript -->
