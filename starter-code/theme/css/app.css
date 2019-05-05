@@ -251,34 +251,52 @@ body {
 .view-container {
   margin-top: 10px;
   background: rgba(255,255,255,0.7);
-  height: 350px;
+  
 }
 
 .view-image-container {
-  display: inline-block;
-  float: left;
+    text-align: center;
 }
 
 .view-image-container img {
   width: 350px;
   height: 350px;
   border: 1px solid #19C0C6;
+  margin-top: 5px;
 }
 
 .view-content-container {
+  text-align: center;
 }
 
 .view-content-container span {
   padding-left: 10px;
 }
 
+.view-article-content {
+  padding: 5px 100px;
+  text-align: center;
+}
 .view-comment {
-	padding-left: 358px;
+  margin-left: 250px;
+}
+
+.users-comment {
+  padding: 5px;
+  background: #FFF;
+  color: #000;
+  width: 60%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.users-comment i {
+  color: #19C0C6;
 }
 
 .comment-form {
 	border: 1px solid #19C0C6;
-	width: 75%;
+	width: 60%;
 	padding: 5px;
 	margin-top: 20px;	
 }
@@ -316,3 +334,29 @@ footer {
 /* Footer end */
 
 
+.navbar-default .navbar-nav>li>a {
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: #FFF;
+  background-color: #000;
+}
+
+.dropdown-menu {
+  background: #000;
+  color: #FFF;
+}
+
+.dropdown-menu>li>a {
+  color: #FFF;
+}
+
+.dropdown-menu>li>a:hover {
+  color: #19C0C6;
+  background: #000;
+}
