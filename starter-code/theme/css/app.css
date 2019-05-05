@@ -247,6 +247,64 @@ body {
 }
 /* Comments end */
 
+/* View */
+.view-container {
+  margin-top: 10px;
+  background: rgba(255,255,255,0.7);
+  height: 350px;
+}
+
+.view-image-container {
+  display: inline-block;
+  float: left;
+}
+
+.view-image-container img {
+  width: 350px;
+  height: 350px;
+  border: 1px solid #19C0C6;
+}
+
+.view-content-container {
+}
+
+.view-content-container span {
+  padding-left: 10px;
+}
+
+.view-comment {
+	padding-left: 358px;
+}
+
+.comment-form {
+	border: 1px solid #19C0C6;
+	width: 75%;
+	padding: 5px;
+	margin-top: 20px;	
+}
+
+.comment-form input {
+	width: 50%;
+	border: 1px solid #FFF;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+
+.comment-form textarea {
+	width: 50%;
+	border: 1px solid #FFF;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+
+.comment-form button {
+	border: 1px solid #19C0C6;
+	background: #19C0C6;
+	color: #FFF;
+
+}
+/* Veiw end */
+
 /* Footer */
 footer {
   text-align: center;
