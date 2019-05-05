@@ -354,6 +354,7 @@ footer {
 
 .dropdown-menu>li>a {
   color: #FFF;
+  text-align: center;
 }
 
 .dropdown-menu>li>a:hover {
