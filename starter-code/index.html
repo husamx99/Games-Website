@@ -32,7 +32,7 @@
                             <li   class="dropdown">
                             <a id="userList" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">hello@mail.com <span class="caret"></span></a>
                             <ul   class="dropdown-menu">
-                                <li id="newArticle"><a href="#">Add New</a></li>
+                                <li id="addNewArticle"><a href="#">Add New</a></li>
                                 <li id="logout"><a href="#">Sign Out</a></li>
                             </ul>
                             <li>
@@ -71,14 +71,28 @@
                     <button id="signUpButt">Sign Up</button><br>
                     <a href="" id="signInA" > you have account? sign in</a>
                 </div>
+                    <div id= "newArticle" class="new-article-form">
+							<form class="article-form">
+                                <label>Article Title:</label><br>
+								<input id= "articleTitle" type="text" name="commenter-name" placeholder="Title">
+								<br>
+                                <label>Article Image:</label><br>
+                                <input id="articleFile" type="file" name="article-img">
+								<textarea id="articleContent" name="new-article-content" placeholder="Article Content"></textarea>
+								<br>
+								<button id="addArticleButt" name="submit">Add</button>
+							</form>
+						</div>
       		</div><!-- Sign in end -->
 
     	<!-- Body row -->
-    	<div class="row">
+    	<div id="allArticles" class="row">
     		<div class="col-md-9">
     			<div class="section-title">
-    				<h3>Top Reviews</h3>
+    				<h3>Articles</h3>
     			</div>
+                <section id="main" > </section>
+<!--
     			<div class="review-container">
     				<div class="review-image-container">
     					<img src="theme/images/01.jpg">
@@ -86,16 +100,14 @@
     				<div class="review-content-container">
     					<span>Spider-Man</span><br>
     					<span>Activision</span><br>
-    					<span>Action</span><br>
-                        <span>PlayStation</span><br>
-    					<span>2018</span><br>
-                        <span>5 Stars</span><br>
     					<span>
     						Game Review Content. Game Review Content. Game Review Content. Game Review Content. 
     					</span>
     				</div>
     			</div>
+-->
 
+<!--
                 <div class="review-container">
                     <div class="review-image-container">
                         <img src="theme/images/02.jpg">
@@ -112,7 +124,9 @@
                         </span>
                     </div>
                 </div>
+-->
     			
+<!--
                 <div class="review-container">
                     <div class="review-image-container">
                         <img src="theme/images/03.jpg">
@@ -146,7 +160,9 @@
                         </span>
                     </div>
                 </div>
+-->
 
+<!--
                 <div class="review-container">
                     <div class="review-image-container">
                         <img src="theme/images/05.jpg">
@@ -164,6 +180,7 @@
                     </div>
                 </div>
     			
+-->
 
 
     		</div>
@@ -266,7 +283,7 @@
     	</div><!-- Comments end -->
 		
         <!-- Article viewer --> 
-		<div class="row">
+		<div id="articleViewer" class="row">
 			<div class="container">
 				<div class="col-md-12">
 					<div class="section-title">
@@ -274,16 +291,12 @@
 					</div>
 					<div class="view-container">
 						<div class="view-image-container">
-							<img src="theme/images/01.jpg">
+							<img id= "artViewImage" src="theme/images/01.jpg">
 						</div>
 						<div class="view-content-container">
-							<span>Spider-Man</span><br>
-							<span>Activision</span><br>
-							<span>Action</span><br>
-							<span>PlayStation</span><br>
-							<span>2018</span><br>
-							<span>5 Stars</span><br>
-							<span>
+							<span id="artViewTitle">Spider-Man</span><br>
+							<span id= "artViewAuther">Activision</span><br>
+							<span id="artViewcontent" >
 								Game Review Content. Game Review Content. Game Review Content. Game Review Content. 
                                 Game Review Content. Game Review Content. Game Review Content. Game Review Content. 
                                 Game Review Content. Game Review Content. Game Review Content. Game Review Content. 
@@ -312,6 +325,7 @@
 		</div><!-- Article viewer end -->
 
         <!-- Add new article -->
+<!--
         <div class="row">
 			<div class="container">
 				<div class="col-md-12">
@@ -323,19 +337,20 @@
 						<div class="new-article-form">
 							<form class="article-form">
                                 <label>Article Title:</label><br>
-								<input type="text" name="commenter-name" placeholder="Name">
+								<input id= "articleTitle" type="text" name="commenter-name" placeholder="Name">
 								<br>
                                 <label>Article Image:</label><br>
-                                <input type="file" name="article-img">
-								<textarea name="new-article-content" placeholder="Article Content"></textarea>
+                                <input id="articleFile" type="file" name="article-img">
+								<textarea id="articleContent" name="new-article-content" placeholder="Article Content"></textarea>
 								<br>
-								<button name="submit">Add</button>
+								<button id="addArticleButt" name="submit">Add</button>
 							</form>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div><!-- Add new article end -->
+		</div> Add new article end 
+-->
 
     </div>
 
